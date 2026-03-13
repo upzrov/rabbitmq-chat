@@ -1,0 +1,23 @@
+{
+	"name": "messaging-worker",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"start": "bun .",
+		"dev": "bun --watch ."
+	},
+	"dependencies": {
+		"amqplib": "^0.10.9",
+		"ws": "^8.19.0"
+	},
+	"devDependencies": {
+		"@rabbitmq-chat/db": "workspace:*",
+		"@types/amqplib": "^0.10.8",
+		"@types/bun": "latest",
+		"@types/ws": "^8.18.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
