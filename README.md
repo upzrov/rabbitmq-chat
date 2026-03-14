@@ -14,7 +14,7 @@ rabbitmq-chat/
 │   ├── messaging-worker/  # Node.js microservice. Handles WS connections, RabbitMQ, and DB archiving.
 │   └── web-app/           # SvelteKit frontend. Handles UI, authentication, and client state.
 ├── packages/
-│   └── db/                # Shared single source of truth for Drizzle schema and libSQL client.
+│   └── db/                # Shared single source of truth for Drizzle ORM schema.
 ```
 
 ## 🗄️ Running Database Migrations
